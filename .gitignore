@@ -1,0 +1,35 @@
+# Operating system generated files
+.DS_Store
+Thumbs.db
+
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Google Apps Script (CLASP specific)
+# You generally *want* to commit .clasp.json as it contains your project ID.
+# However, if it ever contains sensitive info (e.g., service account private keys),
+# you might consider ignoring it and managing those details differently.
+# For most Apps Script CLASP projects, committing .clasp.json is fine.
+
+# Local environment variables
+.env
+.env.*
+
+# Editor and IDE specific files (VS Code, Sublime Text, etc.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts / Generated files
+dist/
+build/
+out/
+temp/
+*.log
+*.tmp
+*~
+
+# Any other files that are generated or contain sensitive info unique to your local machine
